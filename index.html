@@ -1,155 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Team No Sql - Mobile Apps Development</title>
-	<meta name="description" content="Team No Sql - Mobile Apps Development" />
-	<meta name="author" content="teamnosql" />
-
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="assets/images/teamnosql.png" />
-
-	<!-- Bootstrap & Plugins CSS -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
-
-	<!-- Custom CSS -->
-	<link href="assets/sounds/green-audio-player.css" rel="stylesheet" type="text/css">
-	<link href="assets/css/theme-green.css" rel="stylesheet" type="text/css">
+	<meta class="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Team No SQL</title>
+	<!-- Don't forget to add your metadata here -->
+	<link rel='stylesheet' href='css/style.css' />
+	<link rel="icon" type="image/png" href="images/logo.png"/>
 </head>
 <body>
-
-
-	<!-- ***** Preloader Start ***** -->
-	<div id="preloader">
-		<div id="loader" class="spinner">
-			<div id="shadow"></div>
-			<div id="box"></div>
-		</div>
-	</div>
-	<!-- ***** Preloader End ***** -->
-
-
-	<!-- Header Start -->
-	<header class="main-nav-container box">
+	<!-- Hero(extended) navbar -->
+	<!-- <div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main-nav">
-						<!-- Logo Start -->
-						<a href="index.html" class="logo pull-left d-flex align-items-center">
-							<img src="assets/images/teamnosql.png" width="55" alt="">
-						</a>
-						<!-- Logo End -->
-
-						<!-- Navigation Start -->
-						<nav class="menu pull-right">
-							<ul class="menu-container list-unstyled d-flex align-items-center">
-								<li class="menu-item">
-									<a class="nav-link" href="/">Home</a>
-								</li>
-								<li class="menu-item">
-									<a class="nav-link" href="/product">Product</a>
-								</li>
-								<li class="menu-item">
-									<a class="nav-link" href="/about">About</a>
-								</li>
-								<li class="menu-item">
-									<a class="nav-link" href="/pricing">Pricing</a>
-								</li>
-								<li class="menu-item">
-									<a class="nav-link" href="/contact">Contact</a>
-								</li>
-							</ul>
-						</nav>
-						<!-- Navigation End -->
-
-						<a class="menu-trigger">
-							<span>Menu</span>
-						</a>
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">Logo</a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="#">Option</a></li>
+						<li><a href="#">Option 2</a></li>
+					</ul>
+				</nav>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+			</div>
+		</div>
+	</div> -->
+	<!-- Hero unit -->
+	<div class="hero">
+		<div class="hero__overlay hero__overlay--gradient"></div>
+		<div class="hero__mask"></div>
+		<div class="hero__inner">
+			<div class="container">
+				<div class="hero__content">
+					<div class="hero__content__inner" id='navConverter'>
+						<img src="images/logo.png" alt="Team No SQL" width="100">
+						<h1 class="hero__title">Team No SQL</h1>
+						<p class="hero__text" style="text-align: center;">Develop your mind with our skills.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-	<!-- Header End -->
-
-
-	<!-- Welcome Start -->
-	<section class="welcome-auto oval-bg">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<!-- left item start -->
-				<div class="col-lg-5 sm-margin-bottom-30">
-					<h1 class="m-b-10">Build your <span class="text-color-primary">Product apps</span> or <span class="text-color-primary">Software as service</span></h1>
-					<p class="m-b-40">Build mobile apps for your services, increase revenue and users. Fast and light to use.</p>
-				</div>
-				<!-- left item end -->
-
-				<!-- right item start -->
-				<div class="col-lg-7">
-					<video width="600" height="450" autoplay loop>
-						<source src="assets/videos/example.mp4" type="video/mp4">
-					</video>
-					<!-- <img src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=637&h=395&q=80" class="img-fluid mx-auto d-block" alt=""> -->
-				</div>
-				<!-- right item end -->
-			</div>
-		</div>
-	</section>
-	<!-- Welcome End -->
-
-	<!-- Divider Start -->
-	<div class="container">
-		<div class="row">
-			<div class="offset-lg-2 col-lg-8">
-				<div class="divider"></div>
-			</div>
-		</div>
 	</div>
-	<!-- Divider End -->
-
-	<div class="audio-wrap">
-		<div class="green-audio-player">
-			<audio id="audio" autoplay>
-				<source src="assets/sounds/audio.mp3" type="audio/mpeg">
-			</audio>
-		</div>
-	</div>
-
-	<!-- Footer Start -->
-	<footer class="footer">
+	<!-- <div class="hero__sub">
+		<span id="scrollToNext" class="scroll">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+		</span>
+	</div> -->
+	<!-- Steps
+	<div class="steps landing__section">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<p class="copyright text-center">&nbsp; 2021 Team No Sql. All Rights Reserved.</p>
+			<h2>Who can use Evie?</h2>
+			<p>Here's who we can think of, but surely creative people will surprise us.</p>
+		</div>
+		<div class="container">
+			<div class="steps__inner">
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_designer.svg" class="step__image">
+					</div>
+					<h4>Programmers</h4>
+					<p class="step__text">A landing page for your open source projects. Present your solution, easily create docs.</p>
+				</div>
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_responsive.svg" class="step__image">
+					</div>
+					<h4>Designers</h4>
+					<p class="step__text">A website for your own freebies. Let the world download and use your artwork.</p>
+				</div>
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_creation.svg" class="step__image">
+					</div>
+					<h4>Makers</h4>
+					<p class="step__text">A great starting point for your web application. Focus on your idea and execution.</p>
 				</div>
 			</div>
 		</div>
-	</footer>
-	<!-- Footer End -->
-
-
-	<!-- jQuery -->
-	<script src="assets/js/jquery-2.1.0.min.js"></script>
-	
-	<!-- Bootstrap -->
-	<script src="assets/js/popper.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-
-	<!-- Plugins -->
-	<script src="assets/js/scrollreveal.min.js"></script>
-	<script src="assets/js/imgfix.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/parallax.min.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src="assets/sounds/green-audio-player.js"></script>
-	<!-- Global Init -->
-	<script src="assets/js/global.js"></script>
+	</div> -->
+<script src='js/app.js'></script>
 </body>
 </html>
